@@ -1,0 +1,29 @@
+1. Installing Node - v12.18.0
+
+	# Using Ubuntu
+	curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+	sudo apt-get install -y nodejs
+
+2. Once installed, create a project folder and open terminal in it.
+
+For creating the backend
+
+	3. mkdir backend and cd backend
+	4. npm init -y
+	5. npm install express cors mongodb dotenv
+	6. npm install -g nodemon
+	7. In the backend, add `"type" : "module"` in package.json under "main" : "index.js"
+	8. Now start creating the js files and once done use `nodemon server' to start the server
+
+For creating the frontend
+
+	9. npx create-react-app frontend
+	10. npm install bootstrap (This is a CSS framework and helps make designing the app much simpler)
+	11. npm install react-router-dom@5.2.0 ( We use this to route different URLs to different pages in our site )
+	12. Now after creating the js files use `npm start'
+	13. npm install axios
+	
+	
+MongoDB: 	Project - rset_portal
+		username : test
+		password : 2022rset_portal
